@@ -1,188 +1,193 @@
-.elenco-✓ {
-    list-style: none;
+ * {
+     box-sizing: border-box;
+     font-family: sans-serif;
 
-    display: flex;
-    flex-direction: column;
+ }
 
-    gap: 10px;
 
+ .elenco-✓ {
+     list-style: none;
 
+     display: flex;
+     flex-direction: column;
 
-}
+     gap: 10px;
 
-.boxed {
-    background-color: white;
-    max-width: 900px;
-    width: 100%;
-    margin: auto;
-    display: inline-block;
 
-}
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+ }
 
-    margin: auto;
-    max-width: 900px;
-    width: 100%;
-    gap: 10px;
-    margin-top: 15px;
+ .boxed {
+     display: flex;
+     flex-direction: column;
 
-}
+     max-width: 900px;
 
-.elenco-✓-blue {
-    list-style: none;
+     margin: auto;
 
-    display: flex;
-    flex-direction: column;
 
-    gap: 10px;
-    color: white;
+ }
 
 
+ main {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
 
+     margin: auto;
+     max-width: 900px;
+     width: 100%;
+     gap: 10px;
+     margin-top: 15px;
 
-}
+ }
 
-.card {
-    border-radius: 3px solid grey;
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
+ .elenco-✓-blue {
+     list-style: none;
 
-    background-color: whitesmoke;
-    min-width: 200px;
-    width: calc(100% / 3 -20px / 3);
+     display: flex;
+     flex-direction: column;
 
+     gap: 10px;
+     color: white;
 
 
 
-}
 
-.card-blue {
-    border-radius: 3px solid grey;
-    display: inline-block;
-    padding: 10px 20px 15px 20px;
+ }
 
-    background-color: rgb(121, 121, 205);
-    min-width: 200px;
-    width: calc(100% / 3 -20px / 3);
+ .card {
+     border-radius: 3px solid grey;
+     display: inline-block;
+     padding: 10px 20px 10px 20px;
 
+     background-color: whitesmoke;
+     min-width: 200px;
+     width: calc(100% / 3 -20px / 3);
 
 
-}
 
 
+ }
 
+ .card-blue {
+     border-radius: 3px solid grey;
+     display: inline-block;
+     padding: 10px 20px 15px 20px;
 
+     background-color: rgb(121, 121, 205);
+     min-width: 200px;
+     width: calc(100% / 3 -20px / 3);
 
 
 
+ }
 
 
 
-.Basic {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
-.titolo-card {
-    margin-bottom: 0;
-    font-weight: bold;
-}
 
-.titolo-card-blue {
-    margin-bottom: 0;
-    font-weight: bold;
-    color: white;
-}
 
 
-.sottotitolo-card {
-    margin-top: 0;
-    color: grey;
-}
 
-.sottotitolo-card-blue {
-    margin-top: 0;
-    color: white;
-}
 
-.prezzo {
-    font-size: 35px;
-    font-weight: bold;
-}
 
-.mo {
-    color: grey;
-}
+ .Basic {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+ }
 
-.mo-blue {
-    color: white;
-}
+ .titolo-card {
+     margin-bottom: 0;
+     font-weight: bold;
+ }
 
+ .titolo-card-blue {
+     margin-bottom: 0;
+     font-weight: bold;
+     color: white;
+ }
 
 
-.prezzario {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline
-}
+ .sottotitolo-card {
+     margin-top: 0;
+     color: grey;
+ }
 
-.bottone {
-    background-color: rgb(121, 121, 205);
+ .sottotitolo-card-blue {
+     margin-top: 0;
+     color: white;
+ }
 
-    padding: 10px 30px;
-    border-radius: 10px;
+ .prezzo {
+     font-size: 35px;
+     font-weight: bold;
+ }
 
-}
+ .mo {
+     color: grey;
+ }
 
-.bottone-blue {
-    background-color: white;
+ .mo-blue {
+     color: white;
+ }
 
-    padding: 10px 30px;
-    border-radius: 10px;
 
-}
 
-.sottoscheda {
+ .prezzario {
+     display: flex;
+     flex-direction: row;
+     align-items: baseline
+ }
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+ .bottone {
+     background-color: rgb(121, 121, 205);
 
-.percentuale {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+     padding: 10px 37px;
+     border-radius: 10px;
 
-.percentuale-blue {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+ }
 
-}
+ .bottone-blue {
+     background-color: white;
 
-.boxed {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    display: inline inline-block;
-}
+     padding: 10px 37px;
+     border-radius: 10px;
 
+ }
 
+ .sottoscheda {
 
-header h1 {
-    margin-bottom: 0px;
-}
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
 
-header h4 {
-    margin-top: 0px;
-    color: grey;
-}
+ .percentuale {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .percentuale-blue {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+
+ }
+
+
+
+ header h1 {
+     margin-bottom: 0px;
+ }
+
+ header h4 {
+     margin-top: 0px;
+     color: grey;
+ }
+
+ .ultimate {}
